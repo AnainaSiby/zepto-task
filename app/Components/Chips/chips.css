@@ -1,38 +1,88 @@
-.chips-main{
-    margin-top: 40px;
+.chips-main {
+  margin-top: 40px;
 }
 
-.form-heading h2{
-    text-align: center;
+.form-heading h2 {
+  text-align: center;
 }
 
-.form-control{
-    border: none;
-    border-bottom: blue solid 2px;
-    border-radius: 0;
+.form-control {
+  border: none;
+  border-radius: 0;
 }
 
-.form-control:focus{
-    box-shadow: none;
+.form-control:focus {
+  box-shadow: none;
 }
 
-li{
- list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-.email-class{
-    color: grey;
-    padding-left: 20px;
+.email-class {
+  color: rgb(129, 118, 118);
+  padding-left: 20px;
 }
 
-.view-tags{
-    display: flex;
+.view-tags {
+  display: flex;
+  border-bottom: 2px solid blue;
 }
 
-.selected-items{
-    display: flex;
+.selected-items {
+  display: flex;
+  background-color: rgb(181, 177, 177);
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-.chip{
-    display: flex;
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list {
+  width: 350px;
+  height: 200px;
+  overflow: auto;
+}
+
+.list-item {
+  padding: 15px;
+  margin-left: 0;
+}
+
+.list ul {
+  padding: 0;
+}
+
+.profile-icon {
+  padding-right: 5px;
+  font-size: 30px;
+}
+
+.list-item:hover {
+  background-color: rgba(214, 213, 213, 0.447);
+}
+
+.chip button {
+  border-radius: 50%;
+  padding: 0;
+  margin: 2px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.chip button:hover {
+  background-color: rgba(214, 213, 213, 0.447);
+}
+
+.icon-tag {
+  margin-right: 8px;
+  font-size: 20px;
+  padding: 0 !important;
 }
