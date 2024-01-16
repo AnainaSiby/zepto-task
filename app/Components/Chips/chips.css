@@ -1,0 +1,38 @@
+.chips-main{
+    margin-top: 40px;
+}
+
+.form-heading h2{
+    text-align: center;
+}
+
+.form-control{
+    border: none;
+    border-bottom: blue solid 2px;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+li{
+ list-style-type: none;
+}
+
+.email-class{
+    color: grey;
+    padding-left: 20px;
+}
+
+.view-tags{
+    display: flex;
+}
+
+.selected-items{
+    display: flex;
+}
+
+.chip{
+    display: flex;
+}
